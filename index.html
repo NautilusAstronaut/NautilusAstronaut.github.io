@@ -1,18 +1,27 @@
 <!DOCTYPE html>
+<html>
     <title>Astatine</title>
-    <body>
-        <div class="container">
-            <img src="https://nautilusastronaut.github.io/Burger%20King%20Torture%20Bliss.png" alt="Snow" style="height:100%;width:auto">
-            <div class="bottom-left">About</div>
-            <div class="bottom-right">About</div>
-            <div class="centered">
-                <h1>Welcome to Astatine</h1>
-                <b>Enter Game</b>
-            </div>
-          </div> 
-    </body>
-    <style>
-         /* Container holding the image and the text */
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://NautilusAstronaut.github.io/Burger-King-Torture-Bliss.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Container holding the image and the text */
 .container {
   position: relative;
   text-align: center;
@@ -24,20 +33,6 @@
   position: absolute;
   bottom: 8px;
   left: 16px;
-}
-
-/* Top left text */
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-/* Top right text */
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
 }
 
 /* Bottom right text */
@@ -53,6 +48,20 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-} 
-    </style>
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="bg"></div>
+        <div class="bottom-left">About</div>
+        <div class="bottom-right">About</div>
+        <div class="centered">
+            <h1>Welcome to Astatine</h1>
+            <b>Enter Game</b>
+        </div>
+      </div> 
+
+
+</body>
 </html>
