@@ -54,7 +54,7 @@ body {
 .gridControl {
     grid-area: control;
     height: 410px;
-    background: rgba(236, 118, 118); /*dimgrey*/
+    background: rgb(236, 118, 118); /*dimgrey*/
     border-radius: 7px;
     margin: 0 15px 20px 15px;
     box-shadow: 2px 2px 5px rgba(77, 77, 77, 0.8);
@@ -62,7 +62,7 @@ body {
 
 .gridCanvas {
     grid-area: canvas;
-    background: rgba(236, 118, 118); /*dimgrey*/
+    background: rgb(236, 118, 118); /*dimgrey*/
     border-radius: 7px;
     margin: 0 15px 20px 15px;
     box-shadow: 2px 2px 5px rgba(77, 77, 77, 0.8);
