@@ -71,7 +71,7 @@ body {
 h1 {
     font-family: 'Press Start 2P';
     font-size: 45px;
-    color: dimgrey;
+    color: rgb(0, 0, 0);
     padding-top:15px;
     text-shadow: 3px 3px 5px red;
     margin: 0.5em 0 0.75em 0;
